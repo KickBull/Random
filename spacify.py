@@ -33,5 +33,3 @@ def spacify(input_equation: str) -> str:
             output = buffer[0]
 
     return output
-
-print(spacify("4- (3 /2)*-16^ 12 -1*(+13)"))
