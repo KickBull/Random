@@ -1,6 +1,6 @@
 
 
-def spacify(_input: str) -> str:
+def spacify(input_equation: str) -> str:
     """Mathematical equation space fixer.
     Example:
 
@@ -12,7 +12,7 @@ def spacify(_input: str) -> str:
     operators = ["+", "-", "*", "/", "^"]
     output = ""
 
-    for char in list(_input):
+    for char in list(input_equation):
         if len(buffer + char) <= 2:
             buffer += char
         else:
